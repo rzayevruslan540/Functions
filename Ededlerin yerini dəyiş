@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void swapNumbers(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+int main() {
+    int x, y;
+
+    cout << "Iki eded daxil edin: ";
+    cin >> x >> y;
+
+    swapNumbers(x, y);
+
+    cout << "Yerleri deyisdirildikden sonra:\n";
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+
+    return 0;
+}
