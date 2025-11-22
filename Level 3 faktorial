@@ -1,0 +1,17 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int rr(int x){
+    int a=1;
+    for(int i=1,i<=x,i++){
+      a=a*i;
+    }
+}
+
+    return a;
+
+int main();
+  cout<<"bir eded daxil edin:";
+  cin>>x;
+  cout<<rr(x);
+     return 0
