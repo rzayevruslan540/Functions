@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+const double PI = 3.14159; // Sabit pi qiyməti
+
+double sahə(double r) {
+    return PI * r * r;
+}
+
+double çevrə(double r) {
+    return 2 * PI * r;
+}
+
+int main() {
+    double r;
+
+    cout << "Dairenin radiusunu daxil edin: ";
+    cin >> r;
+
+    cout << "Dairenin sahesi: " << sahə(r) << endl;
+    cout << "Dairenin cevresi: " << çevrə(r) << endl;
+
+    return 0;
+}
